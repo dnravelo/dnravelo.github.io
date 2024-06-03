@@ -1,10 +1,8 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: Nits for the brain
+author: dnravelo
+email: dianeth.ravelo@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Siempre ha sido más fácil retener conocimiento cuando escribo y practico lo que aprendo.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -26,9 +24,9 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
+    #twitter: samarsault
+    github:  dnravelo
+    linkedIn: in/dianethravelo
     #dribbble: jekyll
     #flickr:   jekyll
     #instagram: jekyll
@@ -38,7 +36,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    #email: jekyll
+    #email: dianeth.ravelo@gmail.com
 
     # Mastodon instances
     # mastodon:
