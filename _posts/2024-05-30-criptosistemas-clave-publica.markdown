@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Criptosistemas de clave pública y su aplicación,"
-date:   2024-30-05 22:10:05 +0530
+date:   2024-05-30 22:10:05 +0530
 categories: Criptosistemas Seguridad
 ---
 
