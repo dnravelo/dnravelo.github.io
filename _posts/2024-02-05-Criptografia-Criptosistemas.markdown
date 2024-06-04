@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Criptografía y Criptosistemas"
-date:   2024-27-05 19:03:36 +0530
+date:   2024-02-05 19:03:36 +0530
 categories: Criptografia NodeJS
 ---
 ## ¿Qué es la criptografía?
