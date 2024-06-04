@@ -21,7 +21,7 @@ Pero al ir mas allá, observamos que adicionalmente este criptosistema brinda au
 - Mensaje + clave privada = Mensaje firmado
 - Mensaje firmado + clave pública = Autenticación
 
-Algunos de los algoritmos representativos de los criptosistemas de clave pública incluyen Diffie-Hellman, ElGamal, RSA (Rivest-Shamir-Adleman) y ECC (Elliptic Curve Cryptography).
+Algunos de los algoritmos representativos de los criptosistemas de clave pública incluyen Diffie-Hellman, ElGamal, RSA (Rivest-Shamir-Adleman) y ECC (Elliptic Curve Cryptography). Este tipo de encripción suele usar problemas matemáticos de difícil solución, por ejemplo, el algoritmo RSA usa el problema de la factorización de números grandes, mientras que los algoritmos Diffie-Hellman y ECC usan el problema del logaritmo discreto
 
 
 
