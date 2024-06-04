@@ -5,7 +5,7 @@ date:   2024-06-01 20:10:05 +0530
 categories: Criptosistemas Simétrico Asimétrico
 ---
 
-
+Las ventajas y desventajas de los Criptosistemas simétricos vs Criptosistemas asimétricos estan estrechamente relacionadas con los algoritmos que manejan cada uno.
 
 | **Criptosistema** | **Ventanas** | **Desventajas** |
 |-------|--------|---------|
@@ -13,7 +13,11 @@ categories: Criptosistemas Simétrico Asimétrico
 | **Asimétrico** | - **Seguridad**: Dado que las claves privadas nunca se transmiten o comparten, hay menos riesgo de que sean interceptadas por un tercero. <br/> - **Autenticación y no repudio**: Los sistemas asimétricos permiten la autenticación de los usuarios y garantizan que un emisor no pueda negar haber enviado un mensaje. Esto es posible gracias a las firmas digitales. | - **Velocidad**: Los sistemas asimétricos son más lentos y requieren más recursos computacionales que los sistemas simétricos. Esto se debe a que los algoritmos asimétricos realizan operaciones matemáticas más complejas. <br/> - **Tamaño de la clave**: Para proporcionar el mismo nivel de seguridad, las claves en un sistema asimétrico necesitan ser significativamente más largas que en un sistema simétrico. |
 
 
+Las diferencias principales entre los dos tipos de criptosistemas son:
 
+-**Clave de cifrado**: En los sistemas simétricos, la misma clave se utiliza para cifrar y descifrar el mensaje. En los sistemas asimétricos, se utilizan dos claves diferentes (una pública y una privada).
+-**Uso**: Los sistemas simétricos son ideales para cifrar grandes cantidades de datos, mientras que los sistemas asimétricos se utilizan a menudo para el intercambio seguro de claves y la autenticación.
+-**Velocidad y recursos**: Los sistemas simétricos son generalmente más rápidos y eficientes, mientras que los sistemas asimétricos son más lentos y requieren más recursos.
 
 ## Referencias
 
