@@ -37,11 +37,11 @@ Se usa comunmente en:
 - **Firmas y certificados digitales**: Se usa para generar firmas digitales, que se utilizan para verificar la autenticidad e integridad de los documentos y mensajes digitales, así como en los sistemas de infraestructura de clave pública (PKI) para emitir y validar certificados digitales.
 
 ## ElGamal
-Fue creado entre el 84 y el 85 y se basa en el problema mátemático del logaritmo discreto que se refiere a la solución de la ecuación exponencial, teniendo en cuenta que tanto g como y hacen parte de un grupo cíclico finito.
+Fue creado entre el 84 y el 85 y se basa en el problema matemático del logaritmo discreto que se refiere a la solución de la ecuación exponencial, teniendo en cuenta que tanto g como y hacen parte de un grupo cíclico finito.
 
 ![Image](/assets/Logarit.JPG)
 
-En esta ecuación y su solución se cumple el principio en el cual una operación es muy sencilla en un sentudo, pero mujy difícil en el otro. 
+En esta ecuación y su solución se cumple el principio en el cual una operación es muy sencilla en un sentido, pero muy difícil en el otro.
 
 El cifrado ElGamal se utiliza en software libre de Guardián de Privacidad, GNU, versiones recientes de PGP entre otros.
 
