@@ -17,8 +17,15 @@ Fué desarrollado en 1977 por investigadores del MIT y se usa ampliamente tanto 
 
 Ejemplo: Si decimos que 303557 es el resultado de multiplicar dos números primos, encontrar dichos números es un trabajo con cierto nivel de dificultad, pero si hablamos de buscar el resutlado de multiplicar 757*401, la dificultad baja considerablemente, mas aún si hablamos de numeros muy grandes.
 
-El tamaño de los números primos usados en RSA varía entre 512 bits (155 dígitos) y 2048 bits (617 dígitos)
+Entonces, la segurdad de RSA radica en la dificultad de factorizar un numero grande, en los números primos que lo comoponen, teniendo en cuenta que el tamaño de los números primos usados en RSA varía entre 512 bits (155 dígitos) y 2048 bits (617 dígitos)
 
+Sin embargo se debe tener en cuenta que se han realizado avances y hoy existen algoritmos que presentan cierto nivel de eficiencia para factorizar números grandes, como el Tamiz de campo numérico general, además la eficiencia computacional crece a un ritmo muy rápido. Por lo anterior se ha venido aumentando el tamaño de las claves en RSA con el fin de mantenerlo al día y esto ha generado que se aumenten los tiempos de cifrado y descifrado.
 
+## ECC
+Se basa en matemáticas avanzadas, específicamente las curvas elípticas. La ecuación de una curva elíptica es:
+
+$$
+y^2=x^3 + ax + b
+$$
 
 https://web.archive.org/web/20070127130201/http://theory.lcs.mit.edu/~rivest/rsapaper.pdf
