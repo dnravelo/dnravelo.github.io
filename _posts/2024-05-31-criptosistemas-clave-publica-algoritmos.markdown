@@ -28,7 +28,9 @@ $$
 y^2=x^3 + ax + b
 $$
 
-<center>
+```{r, echo=FALSE, fig.align='center'}
+include_graphics("/assets/curvaeliptic.JPG")
+```
 ![Image](/assets/curvaeliptic.JPG)
 </center>
 
