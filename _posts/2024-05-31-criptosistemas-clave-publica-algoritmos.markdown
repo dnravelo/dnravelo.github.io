@@ -24,11 +24,7 @@ Sin embargo se debe tener en cuenta que se han realizado avances y hoy existen a
 ## ECC
 Se basa en matemáticas avanzadas, específicamente las curvas elípticas. La ecuación de una curva elíptica es la siguiente, donde donde \(a\) y \(b\) son constantes y la curva se define sobre un campo finito
 
-$$
-y^2=x^3 + ax + b
-$$
-
-![Image](/assets/curvaeliptic.JPG){: .center-image }
+![Image](/assets/curvaeliptic.JPG)
 
 
 Estas curvas son horizontalmente simetricas y cualquier línea recta no vertical dibujada a través de una curva elíptica siempre intersecará la curva en, como máximo, tres lugares. La seguridad de la criptografía de curva elíptica se basa en la dificultad de resolver lo que se conoce como el problema de logaritmo discreto de la curva elíptica. Dado un punto P en la curva y un escalar k, es extraordinariamente difícil determinar el punto Q de modo que Q = k*P
