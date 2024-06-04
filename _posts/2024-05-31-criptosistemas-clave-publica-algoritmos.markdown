@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Algoritmos para criptosistemas de clave pública"
-date:   2024-31-05 22:10:05 +0530
+date:   2024-05-31 22:10:05 +0530
 categories: Criptosistemas Seguridad
 ---
 
