@@ -2,7 +2,7 @@
 layout: post
 title:  "Criptografía y Criptosistemas"
 date:   2024-05-27 19:03:36 +0530
-categories: Criptografia NodeJS
+categories: Criptografia Criptosistema simétrico
 ---
 ## ¿Qué es la criptografía?
 
