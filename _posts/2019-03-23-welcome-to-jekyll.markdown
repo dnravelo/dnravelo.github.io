@@ -1,25 +1,17 @@
 ---
 layout: post
-title:  "Integrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+title:  "Criptografía y Criptosistemas"
+date:   2024-03-06 19:03:36 +0530
+categories: Criptografia NodeJS
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+La criptografía es la ciencia y el arte de proteger la información mediante la transformación de datos legibles en datos codificados, de manera que solo las personas autorizadas puedan acceder a la información original. Utiliza algoritmos matemáticos y técnicas de cifrado para garantizar características de seguridad como:
+- **Confidencialidad**: garantizar que solo las personas autorizadas tienen acceso a la información.
+- **Integridad**: garantizar que el documento original no ha sido modificado.
+- **Autenticidad**: garantizar la identidad del autor de la información.
 
-```javascript
-const Razorpay = require('razorpay');
+Un criptosistema es un conjunto de algoritmos, protocolos y procedimientos que permiten la implementación de técnicas criptográficas para proteger la información. Incluye los métodos para el cifrado y descifrado de datos, la gestión de claves y otros mecanismos de seguridad asociados. 
+Los criptosistemas utilizan distintos métodos de cifrado que se dividen en cifrado de flujo y cifrado de bloque. Este último presenta dos tipos: el cifrado de clave pública y el cifrado de clave privada. 
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
-
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
-```
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
