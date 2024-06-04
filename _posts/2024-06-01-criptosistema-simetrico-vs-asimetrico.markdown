@@ -15,9 +15,9 @@ Las ventajas y desventajas de los Criptosistemas simétricos vs Criptosistemas a
 
 Las diferencias principales entre los dos tipos de criptosistemas son:
 
--**Clave de cifrado**: En los sistemas simétricos, la misma clave se utiliza para cifrar y descifrar el mensaje. En los sistemas asimétricos, se utilizan dos claves diferentes (una pública y una privada).
--**Uso**: Los sistemas simétricos son ideales para cifrar grandes cantidades de datos, mientras que los sistemas asimétricos se utilizan a menudo para el intercambio seguro de claves y la autenticación.
--**Velocidad y recursos**: Los sistemas simétricos son generalmente más rápidos y eficientes, mientras que los sistemas asimétricos son más lentos y requieren más recursos.
+- **Clave de cifrado**: En los sistemas simétricos, la misma clave se utiliza para cifrar y descifrar el mensaje. En los sistemas asimétricos, se utilizan dos claves diferentes (una pública y una privada).
+- **Uso**: Los sistemas simétricos son ideales para cifrar grandes cantidades de datos, mientras que los sistemas asimétricos se utilizan a menudo para el intercambio seguro de claves y la autenticación.
+- **Velocidad y recursos**: Los sistemas simétricos son generalmente más rápidos y eficientes, mientras que los sistemas asimétricos son más lentos y requieren más recursos.
 
 ## Referencias
 
