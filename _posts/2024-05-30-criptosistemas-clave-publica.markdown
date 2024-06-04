@@ -25,3 +25,16 @@ Algunos de los algoritmos representativos de los criptosistemas de clave públic
 
 
 
+## Referencias
+
+- [https://elibro.net/es/lc/uniminuto/titulos/106503][1]
+- [https://elibro.net/es/lc/uniminuto/titulos/41843][2]
+- [https://www.researchgate.net/publication/28106424_Introduccion_a_la_Criptografia_tipos_de_algoritmos][3]
+- [https://mikelgarcialarragan.blogspot.com/2016/07/criptografia-xxi-criptologia-para-todos.html][5]
+- [https://www.keepersecurity.com/blog/es/2023/06/07/what-is-elliptic-curve-cryptography/][5]
+  
+[1]: https://elibro.net/es/lc/uniminuto/titulos/106503
+[2]: https://elibro.net/es/lc/uniminuto/titulos/41843
+[3]: https://www.researchgate.net/publication/28106424_Introduccion_a_la_Criptografia_tipos_de_algoritmos
+[4]: https://mikelgarcialarragan.blogspot.com/2016/07/criptografia-xxi-criptologia-para-todos.html
+[5]: https://www.keepersecurity.com/blog/es/2023/06/07/what-is-elliptic-curve-cryptography/
