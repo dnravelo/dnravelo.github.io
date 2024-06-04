@@ -28,7 +28,6 @@ $$
 y^2=x^3 + ax + b
 $$
 
-{:style="text-align: center;"}
 ![Image](/assets/curvaeliptic.JPG)
 
 
