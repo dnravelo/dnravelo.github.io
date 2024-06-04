@@ -5,11 +5,11 @@ date:   2024-06-01 20:10:05 +0530
 categories: Criptosistemas Simétrico Asimétrico
 ---
 
-| Priority apples | Second priority | Third priority |
+| **Criptosistema** | **Ventanas** | **Desventajas** |
 |-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| **Asimétrico** | gala | red delicious |
+| **Simétrico** | jazz | macintosh |
+
 
 
 ## Referencias
