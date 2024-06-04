@@ -18,6 +18,17 @@ Los criptosistemas utilizan distintos métodos de cifrado que se dividen en cifr
 
 ![Image](/assets/Criptosistemas.JPG)
 
+## ¿Qué es un criptosistema de clave privada?
+Un criptosistema de clave privada, también conocido como criptografía simétrica, utiliza la misma clave para el cifrado y descifrado de la información. Esto implica que tanto el remitente como el receptor deben conocer y mantener en secreto la clave utilizada. Algunos ejemplos de algoritmos simétricos son AES (Advanced Encryption Standard) y DES (Data Encryption Standard).
+En este tipo de cifrado el emisor cifra el mensaje con su clave privada, lo envía a través del canal inseguro y el destinatario lo descifra con la misma contraseña o clave privada. 
+Un algoritmo de clave simétrica debe cumplir las siguientes características para que sea seguro para tener buenas características:
+•	El algoritmo debe ser público y conocido cumpliendo el principio de Kerckhoffs que establece que de un sistema criptográfico debe conocerse el diseño y funcionamiento permaneciendo invulnerable. Lo único que debe permaneces secreto es la clave.
+•	No se podrá obtener la clave de cifrado ni tampoco el mensaje en claro una vez se haya cifrado el mensaje.
+•	El costo de obtener la clave a partir del mensaje cifrado y el mensaje debe ser mucho mayor que el valor que pueda tener la información.
+•	Las claves deben ser lo más pequeñas posible para facilitar su implementación y rendimiento, pero lo suficientemente grandes para resistir ataques de fuerza bruta.
+•	Las operaciones de cifrado no deben ser tan complejas que superen las capacidades de cómputo actuales.
+•	Es ideal que el algoritmo no expanda el mensaje.
+
 ## Referencias
 
 - [https://elibro.net/es/lc/uniminuto/titulos/106503][1]
