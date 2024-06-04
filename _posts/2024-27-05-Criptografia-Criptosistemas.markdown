@@ -16,7 +16,7 @@ La criptografía es la ciencia y el arte de proteger la información mediante la
 Un criptosistema es un conjunto de algoritmos, protocolos y procedimientos que permiten la implementación de técnicas criptográficas para proteger la información. Incluye los métodos para el cifrado y descifrado de datos, la gestión de claves y otros mecanismos de seguridad asociados. 
 Los criptosistemas utilizan distintos métodos de cifrado que se dividen en cifrado de flujo y cifrado de bloque. Este último presenta dos tipos: el cifrado de clave pública y el cifrado de clave privada. 
 
-![Image](./assets/avatar.JPG)
+![Image](assets/avatar.JPG)
 
 ## Referencias
 
