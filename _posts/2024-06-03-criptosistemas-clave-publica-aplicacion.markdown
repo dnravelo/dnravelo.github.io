@@ -6,7 +6,10 @@ categories: Criptosistemas Seguridad
 ---
 ## ¿Qué es la criptografía?
 
-La criptografía es la ciencia y el arte de proteger la información mediante la transformación de datos legibles en datos codificados, de manera que solo las personas autorizadas puedan acceder a la información original. Utiliza algoritmos matemáticos y técnicas de cifrado para garantizar la confidencialidad, integridad y autenticidad de la información.
+La criptografía es la ciencia y el arte de proteger la información mediante la transformación de datos legibles en datos codificados, de manera que solo las personas autorizadas puedan acceder a la información original. Utiliza algoritmos matemáticos y técnicas de cifrado para garantizar características de seguridad como:
+- **Confidencialidad**: garantizar que solo las personas autorizadas tienen acceso a la información.
+- **Integridad**: garantizar que el documento original no ha sido modificado.
+- **Autenticidad**: garantizar la identidad del autor de la información.
 
 ## ¿Qué es un criptosistema?
 
