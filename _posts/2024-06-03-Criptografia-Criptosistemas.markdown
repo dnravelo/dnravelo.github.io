@@ -18,9 +18,9 @@ Los criptosistemas utilizan distintos métodos de cifrado que se dividen en cifr
 
 ## Referencias
 
-[https://elibro.net/es/lc/uniminuto/titulos/106503][1]
-[https://elibro.net/es/lc/uniminuto/titulos/41843][2]
-[https://www.researchgate.net/publication/28106424_Introduccion_a_la_Criptografia_tipos_de_algoritmos][3]
+- [https://elibro.net/es/lc/uniminuto/titulos/106503][1]
+- [https://elibro.net/es/lc/uniminuto/titulos/41843][2]
+- [https://www.researchgate.net/publication/28106424_Introduccion_a_la_Criptografia_tipos_de_algoritmos][3]
 
 [1]: https://elibro.net/es/lc/uniminuto/titulos/106503
 [2]: https://elibro.net/es/lc/uniminuto/titulos/41843
