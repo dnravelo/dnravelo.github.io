@@ -22,10 +22,14 @@ Entonces, la segurdad de RSA radica en la dificultad de factorizar un numero gra
 Sin embargo se debe tener en cuenta que se han realizado avances y hoy existen algoritmos que presentan cierto nivel de eficiencia para factorizar números grandes, como el Tamiz de campo numérico general, además la eficiencia computacional crece a un ritmo muy rápido. Por lo anterior se ha venido aumentando el tamaño de las claves en RSA con el fin de mantenerlo al día y esto ha generado que se aumenten los tiempos de cifrado y descifrado.
 
 ## ECC
-Se basa en matemáticas avanzadas, específicamente las curvas elípticas. La ecuación de una curva elíptica es:
+Se basa en matemáticas avanzadas, específicamente las curvas elípticas. La ecuación de una curva elíptica es la siguiente, donde donde \(a\) y \(b\) son constantes y la curva se define sobre un campo finito
 
 $$
 y^2=x^3 + ax + b
 $$
 
+Estas curvas son horizontalmente simetricas y cualquier línea recta no vertical dibujada a través de una curva elíptica siempre intersecará la curva en, como máximo, tres lugares. La seguridad de la criptografía de curva elíptica se basa en la dificultad de resolver lo que se conoce como el problema de logaritmo discreto de la curva elíptica. Dado un punto P en la curva y un escalar k, es extraordinariamente difícil determinar el punto Q de modo que Q = k*P
+
+La ventajas de esta criptografía es que usa menor tamaño en las claves por lo que requiere menos recursos computacionales y menos ancho de banda para generar, cifrar y descifrar claves y es por esta razón por la que es usada en dispositivos móbiles y en IoT
 https://web.archive.org/web/20070127130201/http://theory.lcs.mit.edu/~rivest/rsapaper.pdf
+https://eprint.iacr.org/2013/635.pdf
