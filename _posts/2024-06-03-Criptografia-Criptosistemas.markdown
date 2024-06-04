@@ -17,7 +17,7 @@ Un criptosistema es un conjunto de algoritmos, protocolos y procedimientos que p
 Los criptosistemas utilizan distintos métodos de cifrado que se dividen en cifrado de flujo y cifrado de bloque. Este último presenta dos tipos: el cifrado de clave pública y el cifrado de clave privada. 
 
 ## Referencias
-
+[1](https://elibro.net/es/lc/uniminuto/titulos/106503)
 [1]: https://elibro.net/es/lc/uniminuto/titulos/106503
 [2]: https://elibro.net/es/lc/uniminuto/titulos/41843
 [3]: https://www.researchgate.net/publication/28106424_Introduccion_a_la_Criptografia_tipos_de_algoritmos
