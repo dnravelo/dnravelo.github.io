@@ -7,8 +7,8 @@ categories: Criptosistemas Simétrico Asimétrico
 
 | **Criptosistema** | **Ventanas** | **Desventajas** |
 |-------|--------|---------|
-| **Asimétrico** | gala | red delicious |
-| **Simétrico** | jazz | macintosh |
+| **Simétrico** | - **Rapidez**: Los algoritmos simétricos son más rápidos porque realizan operaciones menos complejas en los datos. Esto los hace ideales para cifrar grandes volúmenes de datos. - **Eficiencia** : Los sistemas simétricos son más eficientes en términos de uso de recursos computacionales. Esto es especialmente útil en dispositivos con recursos limitados. | red delicious |
+| **Asimétrico** | jazz | macintosh |
 
 
 
