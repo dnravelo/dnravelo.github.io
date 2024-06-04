@@ -46,6 +46,9 @@ En esta ecuación y su solución se cumple el principio en el cual una operació
 El cifrado ElGamal se utiliza en software libre de Guardián de Privacidad, GNU, versiones recientes de PGP entre otros.
 
 ## Criptosistemas post-cuánticos
+
+Con el avance de la tecnología y la creación de las computadoras cuanticas que tienen gran capacidad de procesamiento. Se ha hecho necesaria la creación de nuevos algoritmos de encripción que en este momento se encuentran en proceso de validación y en búsqueda de sus vulnerabilidades. Algunos de ellos son:
+
 - **RSA-PSS**: Esquema de firma digital basado en RSA con adición de elementos aelatorios que se vinculan al HAS del mensaje.
 - **EdDSA**: Esquema de firma digital basado en curvas elípticas específicamente utiliza una variante de la firma de Schnorr basada en curvas de Edwards torcidas.
 - **SIDH**: Esquema de intercambio de claves basado en la criptografía isogenia supersingular.
