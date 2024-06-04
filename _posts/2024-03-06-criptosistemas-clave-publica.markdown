@@ -18,8 +18,8 @@ En primera instancia podemos afirmar que un criptosistema de clave pública brin
 - Mensaje encriptado + clave privada = Mensaje descifrado
 
 Pero al ir mas allá, observamos que adicionalmente este criptosistema brinda autenticidad para garantizar la identidad del autor de la información y no repudio para que el emisor no puede negar haber enviado el mensajeque. Esto ocurre porque ofrece un método para el desarrollo de firmas digitales. En la firma digital se cifra el mensaje con la clave privada y solo la clave pública asociada lo puede descifrar por lo que si con la clave publica obtuvimos el mensaje original, se puede afirmar que el emisor es el correcto.
-Mensaje + clave privada = Mensaje firmado
-Mensaje firmado + clave pública = Autenticación
+- Mensaje + clave privada = Mensaje firmado
+- Mensaje firmado + clave pública = Autenticación
 
 Algunos de los algoritmos representativos de los criptosistemas de clave pública incluyen Diffie-Hellman, ElGamal, RSA (Rivest-Shamir-Adleman) y ECC (Elliptic Curve Cryptography).
 
