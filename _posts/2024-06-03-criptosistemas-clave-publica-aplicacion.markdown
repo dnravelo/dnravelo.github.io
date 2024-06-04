@@ -4,7 +4,26 @@ title:  "Criptosistemas de clave pública y su aplicación,"
 date:   2024-03-06 22:10:05 +0530
 categories: Criptosistemas Seguridad
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+# ¿Qué son las Claves Públicas y Privadas?
+Aquí puedes escribir sobre las claves públicas y privadas.
+
+# ¿Qué es la Firma Digital y cuál es su Importancia?
+Aquí puedes escribir sobre la firma digital y su importancia.
+
+# ¿Qué es el Criptosistema de Clave Pública?
+Aquí puedes escribir sobre el criptosistema de clave pública.
+
+# ¿Cómo Funciona y Cuáles son sus Algoritmos Representativos?
+Aquí puedes escribir sobre cómo funciona el criptosistema de clave pública y cuáles son sus algoritmos representativos.
+
+# Ventajas, Desventajas y Diferencias con el Criptosistema Simétrico
+Aquí puedes escribir sobre las ventajas, desventajas y diferencias con el criptosistema simétrico.
+
+# Caso Práctico de Aplicación
+Aquí puedes escribir sobre un caso práctico de aplicación.
+
+# Observaciones y Recomendaciones para Implementar el Criptosistema
+Aquí puedes escribir tus observaciones y recomendaciones para implementar el criptosistema.
 
 ```javascript
 const Razorpay = require('razorpay');
