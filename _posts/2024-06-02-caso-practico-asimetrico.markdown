@@ -11,17 +11,19 @@ En la actualidad se utiliza algo llamado relleno en criptografía RSA, esto es n
 - RSA-REACT
 - RSA-PSS (Probabilistic Signature Scheme). Usado por ejemplo en PKCS#1
 
-Una aplicación práctica de RSA con relleno PSS es el protocolo de seguridad TLS (Transport Layer Security) diseñado para facilitar la privacidad y la seguridad de los datos en las comunicaciones por Internet. TLS encripta las comunicaciones entre aplicaciones web y servidores. TLS también puede usarse para encriptar otras comunicaciones como el correo electrónico, los mensajes y la voz sobre IP (VoIP). 
+Una aplicación práctica de RSA con relleno PSS es el protocolo de seguridad TLS (Transport Layer Security) o Protocolo SSL 3.0. Este fue diseñado para facilitar la privacidad y la seguridad de los datos en las comunicaciones por Internet. TLS encripta las comunicaciones entre aplicaciones web y servidores. TLS también puede usarse para encriptar otras comunicaciones como el correo electrónico, los mensajes y la voz sobre IP (VoIP). 
 
-¿Qué ocurre durante un protocolo de enlace TLS?
-Durante el transcurso de un protocolo de enlace TLS, el cliente y el servidor harán juntos lo siguiente:
+TLS utliza algo llamado conjunto de cifrado que es un grupo de algoritmos que se utilizan para establecer una conexión de comunicaciones segura. Acordar qué conjunto de cifrado se utilizará es una parte importante del protocolo de enlace TLS. Estos algoritmos se usan en el proceso de negociación de parámetros y generación de claves que se realiza durante el handshake y cada uno tiene una finalidad específica.
 
-Especificar qué versión de TLS (TLS 1.0, 1.2, 1.3, etc.) van a utilizar.
-Decidir qué conjuntos de cifrado (ver más abajo) van a utilizar.
-Autenticar la identidad del servidor mediante la clave pública del servidor y la firma digital de la autoridad de certificación SSL.
-Generar claves de sesión para poder utilizar el cifrado simétrico una vez finalizado el protocolo de enlace.
-¿Qué es un conjunto de cifrado?
-Un conjunto de cifrado es un grupo de algoritmos que se utilizan para establecer una conexión de comunicaciones segura. Hay una serie de conjuntos de cifrado de amplio uso, y una parte esencial del protocolo de enlace TLS es acordar qué conjunto de cifrado se utilizará para este protocolo.
+Un ejemplo de un conjunto de cifrado es: SSL_DH_RSA_WITH_DES_CBC_SHA Donde SSL es el protocolo, DH es el algoritmo de intercambio de clave asimétrico (Key Exchange), RSA es el método de autentificación durante el handshake, DES es el de cifrado simétrico, CBC su modo de operación y SHA el de hashing.
+
+El subprotocolo Handshake es el que negocia una clave simétrica que se utilizará para autentificar los mensajes y cifrarlos. Para esto, el protocolo usa criptografía asimétrica para realizar un intercambio de clave (Key Exchange) generand una clave preliminar de 48 bytes denominada pre_master_secret. Se pueden usar tres algoritmos para intercambiar esta clave: RSA, Diffie-Hellman (DH), y FORTEZZA. 
+
+Cuando el método de intercambio de claves es RSA, el Cliente genera una pre_master_secret y la cifra con la clave pública del Servidor. Ella puede ser fija y surgida de su certificado enviado previamente al Cliente, o efímera, generada para la conexión en particular. El Servidor recibe la clave simétrica preliminar y la descifra con su clave privada. 
+
+Cuando el método de intercambio de claves es Diffie-Hellman Efímero (DHE), tanto cliente como servidor generan sus parámetros en cada negociación y los envía al otro extremo en un mensaje del handshake. En esta modalidad los parámetros no surgen de un certificado por lo que su autentificación se realiza con firmas digitales utilizando la clave privada del certificado habilitada para la firma en modalidad RSA o DSS (Digital Signature Standard). 
+
+
 ## Referencias
 
 - [https://elibro.net/es/lc/uniminuto/titulos/41843][2]
