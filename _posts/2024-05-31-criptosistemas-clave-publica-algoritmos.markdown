@@ -9,7 +9,8 @@ categories: Criptosistemas Seguridad
 Algunos de los algoritmos representativos de la criptografía de clave pública son:
 - **RSA**: Es uno de los primeros sistemas de este tipo y se utiliza ampliamente para la seguridad de datos. Se basa en la dificultad de factorizar grandes números compuestos.
 - **Criptografía de curva elíptica (ECC)**: Proporciona seguridad comparable a RSA pero con claves más cortas, lo que la hace más eficiente.
-- **Diffie-Hellman**: Este es un método específico para intercambiar claves criptográficas de manera segura a través de un canal público.
+- **ElGamal**: Se basa en el problema matemático del logaritmo discreto que se refiere a la solución de la ecuación exponencial
+
 
 
 ## RSA
