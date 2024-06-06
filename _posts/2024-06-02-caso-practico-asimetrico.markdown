@@ -13,8 +13,15 @@ En la actualidad se utiliza algo llamado relleno en criptografía RSA, esto es n
 
 Una aplicación práctica de RSA con relleno PSS es el protocolo de seguridad TLS (Transport Layer Security) diseñado para facilitar la privacidad y la seguridad de los datos en las comunicaciones por Internet. TLS encripta las comunicaciones entre aplicaciones web y servidores. TLS también puede usarse para encriptar otras comunicaciones como el correo electrónico, los mensajes y la voz sobre IP (VoIP). 
 
+¿Qué ocurre durante un protocolo de enlace TLS?
+Durante el transcurso de un protocolo de enlace TLS, el cliente y el servidor harán juntos lo siguiente:
 
-
+Especificar qué versión de TLS (TLS 1.0, 1.2, 1.3, etc.) van a utilizar.
+Decidir qué conjuntos de cifrado (ver más abajo) van a utilizar.
+Autenticar la identidad del servidor mediante la clave pública del servidor y la firma digital de la autoridad de certificación SSL.
+Generar claves de sesión para poder utilizar el cifrado simétrico una vez finalizado el protocolo de enlace.
+¿Qué es un conjunto de cifrado?
+Un conjunto de cifrado es un grupo de algoritmos que se utilizan para establecer una conexión de comunicaciones segura. Hay una serie de conjuntos de cifrado de amplio uso, y una parte esencial del protocolo de enlace TLS es acordar qué conjunto de cifrado se utilizará para este protocolo.
 ## Referencias
 
 - [https://elibro.net/es/lc/uniminuto/titulos/41843][2]
