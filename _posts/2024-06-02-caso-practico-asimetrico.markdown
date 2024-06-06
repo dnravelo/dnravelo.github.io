@@ -15,13 +15,13 @@ Una aplicación práctica de RSA con relleno PSS es el protocolo de seguridad TL
 
 El protocolo TLS se ubica en tre la capa de aplicación y la capa TCP.
 
-![Imagen1](\assets\protocoloTLS.JPG)
+![Imagen1](/assets/protocoloTLS.JPG)
 
 TLS utliza algo llamado conjunto de cifrado que es un grupo de algoritmos que se utilizan para establecer una conexión de comunicaciones segura. Acordar qué conjunto de cifrado se utilizará es una parte importante del protocolo de enlace TLS. Estos algoritmos se usan en el proceso de negociación de parámetros y generación de claves que se realiza durante el handshake y cada uno tiene una finalidad específica.
 
 Un ejemplo de un conjunto de cifrado es: 
 
-![Imagen2](\assets\Conjuntodecifrado.JPG)
+![Imagen2](/assets/Conjuntodecifrado.JPG)
 
 Donde SSL es el protocolo, DH es el algoritmo de intercambio de clave asimétrico (Key Exchange), RSA es el método de autentificación durante el handshake, DES es el de cifrado simétrico, CBC su modo de operación y SHA el de hashing.
 
